@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Rock Paper Scissors</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/rps.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-background container-fluid">
+      <!-- Back Button, Logo, and Game Title -->
+      <nav class="navbar navbar-expand{-sm|-md|-lg|-xl|-xxl}">
+        <div class="container-fluid container-navbar">
+          <a href="/" class="back-button back-button-a"
+            ><span class="navbar-brand back-button"><</span></a
+          >
+          <img src="/assets/logo 1.png" height="45" alt="" />
+          <span class="navbar-brand game-title">ROCK PAPER SCISSORS</span>
+        </div>
+      </nav>
+      <div class="container-game">
+        <!-- Human Player -->
+        <div id="human" class="col col-game col-game-human">
+          <span class="text-game">PLAYER 1</span>
+          <div id="r" class="pics">
+            <a id="r" href=""
+              ><img
+                id="r"
+                class="player1 choice-game human-rock rock"
+                src="/assets/batu.png"
+                alt=""
+            /></a>
+          </div>
+          <div id="p" class="pics">
+            <a id="p" href=""
+              ><img
+                id="p"
+                class="player1 choice-game human-paper paper"
+                src="/assets/kertas.png"
+                alt=""
+            /></a>
+          </div>
+          <div id="s" class="pics">
+            <a id="s" href=""
+              ><img
+                id="s"
+                class="player1 choice-game human-scissors scissors"
+                src="/assets/gunting.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <!-- Result & Refresh Button -->
+        <div class="col col-game-center text-game pics">
+          <div class="d-inline-flex pics kosong"></div>
+          <div class="d-inline-flex pics kosong"></div>
+          <div class="d-inline-flex pics kosong editwriting">VS</div>
+          <div
+            class="
+              col-middle
+              d-inline-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <a href=""
+              ><img
+                class="choice-game human refresh"
+                src="/assets/refresh.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <!-- Computer Player -->
+        <div id="comp" class="col col-game">
+          <span class="text-game">COMPUTER</span>
+          <div id="r-comp" class="pics">
+            <a id="r-comp" href="#"
+              ><img
+                id="r-comp"
+                class="choice-game computer-rock rock"
+                src="/assets/batu.png"
+                alt=""
+            /></a>
+          </div>
+          <div id="p-comp" class="pics">
+            <a id="p-comp" href="#"
+              ><img
+                id="p-comp"
+                class="choice-game computer-paper paper"
+                src="/assets/kertas.png"
+                alt=""
+            /></a>
+          </div>
+          <div id="s-comp" class="pics">
+            <a id="s-comp" href="#"
+              ><img
+                id="s-comp"
+                class="choice-game computer-scissors scissors"
+                src="/assets/gunting.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/rps.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "class": "Art 101",
+    "seats available": "15"
+  },
+  {
+    "id": "2",
+    "class": "Business 101",
+    "seats available": "14"
+  },
+  {
+    "id": "3",
+    "class": "Chemistry 101",
+    "seats available": "11"
+  },
+  {
+    "id": "4",
+    "class": "Design 101",
+    "seats available": "2"
+  },
+  {
+    "id": "5",
+    "class": "Economics 101",
+    "seats available": "10"
+  },
+  {
+    "id": "6",
+    "class": "Finance 101",
+    "seats available": "5"
+  },
+  {
+    "id": "7",
+    "class": "Geography 101",
+    "seats available": "20"
+  },
+  {
+    "id": "8",
+    "class": "History 101",
+    "seats available": "18"
+  },
+  {
+    "id": "9",
+    "class": "Information Technology 101",
+    "seats available": "4"
+  },
+  {
+    "id": "10",
+    "class": "Journalism 101",
+    "seats available": "1"
+  }
+]

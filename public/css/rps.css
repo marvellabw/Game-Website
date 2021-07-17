@@ -1,0 +1,125 @@
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.container-background {
+    background-color: rgb(130, 102, 68, .85);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+
+/* layout for all */
+
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Navbar */
+
+.container-navbar {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.back-button,
+.game-title {
+    font-size: 25px !important;
+    color: rgb(100, 65, 23);
+    font-weight: 600 !important;
+    margin: 0 20px 0 20px !important;
+}
+
+.back-button-a {
+    color: rgb(130, 102, 68, .01) !important;
+}
+
+.game-title {
+    color: goldenrod!important;
+}
+
+
+/* Isi */
+
+.container-game {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-game {
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+}
+
+.col-game-center,
+.col-game {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+}
+
+.col-game-center div {
+    font-size: 50px;
+    font-weight: 800;
+    color: maroon;
+}
+
+.col-game-center a {
+    padding-top: 5rem;
+}
+
+.col-game-human {
+    align-items: flex-end !important;
+}
+
+.rock {
+    height: 3rem;
+}
+
+.paper {
+    height: 5rem;
+}
+
+.scissors {
+    height: 5.5rem;
+}
+
+.refresh {
+    height: 3rem;
+}
+
+.kosong {
+    height: 6rem;
+}
+
+
+/* Buat ganti warna abis diselect */
+
+.col-game div {
+    height: 7rem;
+    width: 8rem;
+    border-radius: 15px;
+}
+
+.col-game div:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+
+/* The additional class */
+
+.new-class {
+    height: 6rem !important;
+    width: 8rem !important;
+    background-color: rgba(30, 130, 76, 1) !important;
+    font-size: medium !important;
+    font-weight: 600 !important;
+    color: white !important;
+    border-radius: 15px !important;
+    transform: rotate(-20deg);
+}

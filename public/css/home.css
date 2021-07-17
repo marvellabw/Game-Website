@@ -1,0 +1,438 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+/* FORMAT FOR ALL */
+
+.bg {
+  height: 100vh !important;
+  width: 100vw !important;
+  margin: 0 0 0 0 !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.header-one {
+  font-family: "Bebas Neue", cursive !important;
+  font-weight: bold !important;
+  font-size: 80px !important;
+  color: azure !important;
+}
+
+.header-two {
+  font-family: "Bebas Neue", cursive !important;
+  font-weight: bold !important;
+  font-size: 36px !important;
+  color: azure !important;
+}
+
+.header-three {
+  font-family: "Bebas Neue", cursive !important;
+  font-weight: bold !important;
+  font-size: 24px !important;
+  color: goldenrod !important;
+}
+
+.body-text {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 18px !important;
+  color: azure !important;
+}
+
+.sub-text {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  color: azure !important;
+}
+
+.sub-text-faint {
+  color: grey !important;
+}
+
+.btnbtn {
+  text-transform: uppercase !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  background-color: goldenrod !important;
+  width: 12rem !important;
+  height: 3rem !important;
+}
+/* Page One Styling */
+
+.bg-page-one {
+  background-image: url(/assets/main-bg.jpg);
+}
+/* Navigation Bar */
+
+.navbar {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: azure;
+  top: 0;
+}
+
+.container-one-navbar {
+  display: flex;
+  flex-direction: space-around;
+  padding-left: 5rem;
+}
+
+.container-two-navbar {
+  display: flex;
+  flex-direction: flex-start;
+  padding: 0 13rem 0 0;
+}
+
+.container-three-navbar {
+  display: flex;
+  flex-direction: space-around;
+  padding-right: 5rem;
+}
+
+.container-two-navbar a,
+.container-three-navbar a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-two-navbar a:hover,
+.container-three-navbar a:hover {
+  color: goldenrod !important;
+}
+/* Navigation Bar END */
+
+.row-page-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 45vh;
+}
+
+.col-page-one {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row-one-page-one {
+  padding-top: 15rem;
+}
+
+.row-two-page-one {
+  align-items: flex-end;
+}
+/* Page One Styling END */
+/* Page Two Styling */
+
+.bg-page-two {
+  background-image: url(/assets/the-games-bg.jpg);
+}
+
+.row-page-two {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 5rem;
+}
+
+.row-one-page-two {
+  height: 20vh;
+}
+
+.row-two-page-two {
+  align-items: flex-start !important;
+}
+/* Image Carousel */
+
+.carousel,
+.carousel-indicators,
+.carousel-inner {
+  display: flex;
+  justify-content: center !important;
+  align-content: center !important;
+}
+
+.carousel-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 700px !important;
+  height: 400px !important;
+}
+
+.carousel-circles {
+  width: 14px;
+  height: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.carousel-control {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control-prev {
+  padding-right: 5rem !important;
+}
+
+.carousel-control-next {
+  padding-left: 5rem !important;
+}
+/* Image Carousel END */
+/* Page Two Styling END */
+/* Page Three Styling */
+
+.bg-page-three {
+  background-image: url(/assets/features.jpg);
+}
+
+.column-page-three {
+  padding-top: 20vh;
+}
+/* Bulet-bulet */
+
+.image-page-3 {
+  width: 14px;
+  height: 14px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.image-page-3-line {
+  width: 2px;
+  height: 90px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.image-page-3-adjust {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.image-page-3-adjust-one {
+  padding-top: 0.5rem;
+}
+
+.image-page-3-adjust-two {
+  padding-top: 1.75rem;
+}
+
+.page-three-text-three {
+  color: goldenrod !important;
+}
+
+.adjust-text {
+  padding-top: 2rem;
+}
+
+.white-line-adjust {
+  padding-left: 0.353rem;
+}
+/* Page Three Styling END */
+/* Page Four Styling */
+
+.bg-page-four {
+  background-image: url(/assets/requirements.png);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+
+.row-one-page-four {
+  height: 10vh;
+}
+
+.row-two-page-four {
+  height: 90vh;
+}
+
+.row-one-page-four p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.column-page-four {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.text-one-page-four {
+  line-height: 80px;
+}
+
+.table-page-four,
+.title-page-four {
+  padding-left: 10rem;
+}
+/* Page Four Styling END */
+/* Page Five Styling */
+
+.bg-page-five {
+  background-image: url(/assets/top-score-bg.png);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.col-one-page-five {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.col-one-page-five p,
+.page-5-button-container {
+  padding-left: 10rem;
+}
+
+.col-two-page-five {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+/* Container Tweets */
+
+.container-tweet {
+  width: 452px !important;
+  height: 183px !important;
+  background-color: rgba(46, 49, 49, 0.8);
+  border-radius: 5%;
+  margin: 0 0 0 0 !important;
+}
+
+.container-tweet-large {
+  width: 452px !important;
+  height: 188px !important;
+}
+
+.profilepic {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.logo-tweet {
+  width: 15px;
+  height: 15px;
+}
+
+.col-one-row-one-container-tweet img {
+  padding-top: 0.5rem;
+}
+
+.tweet-adjust-line-height {
+  line-height: 5px;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+}
+
+.col-three-row-one-container-tweet {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tweet-body-text {
+  padding-top: 2rem;
+}
+
+.tweet-one {
+  padding-left: 10rem;
+}
+
+.tweet-three {
+  padding-left: 5rem;
+}
+/* Page Five Styling END */
+/* Page Six Styling */
+
+.main-page-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-pic {
+  padding-left: 10rem !important;
+}
+
+.row-3-p-6 button {
+  height: 3.65rem !important;
+}
+
+.container-footer {
+  display: flex;
+  width: 90vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-image-footer {
+  display: flex;
+  height: 2vh;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 8px 16px 8px 16px;
+}
+
+.bg-page-sixx {
+  background-color: black;
+  height: 100vh !important;
+}
+
+.page-sixx {
+  display: grid;
+  grid-template-rows: 1fr 15vh;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  color: white;
+  height: 1px;
+}
+
+.navbar-fixed-bottom {
+  display: grid;
+  bottom: 0 !important;
+  grid-template-columns: 10vw 1fr 10vw;
+}
+
+.body-text-gold {
+  color: goldenrod !important;
+}
+
+.container-page-6 {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.col-footer {
+  display: grid;
+  bottom: 0;
+  grid-template-rows: auto 1fr !important;
+}
+
+.navbar-fixed-bottom {
+  display: flex;
+  height: auto;
+  width: 100vw !important;
+  background-color: rgba(0, 0, 0);
+  color: azure;
+  bottom: 0;
+}
